@@ -1,7 +1,7 @@
 {
-  "name": "webpack-package",
+  "name": "@hexlet/code",
   "version": "0.1.0",
-  "description": "",
+  "description": "RSS aggregator",
   "type": "module",
   "scripts": {
     "test": "jest --colors"
