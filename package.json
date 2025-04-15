@@ -1,21 +1,21 @@
 {
-  "name": "webpack-package",
+  "name": "@hexlet/code",
   "version": "0.1.0",
-  "description": "",
+  "description": "RSS agregator",
   "type": "module",
   "scripts": {
-    "test": "jest --colors"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hexlet-boilerplates/webpack-package.git"
+    "url": "git+https://github.com/BEAR-AE/frontend-project-11.git"
   },
-  "author": "Kirill Mokevnin",
+  "author": "Aleksandr Eremin",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hexlet-boilerplates/webpack-package/issues"
+    "url": "https://github.com/BEAR-AE/frontend-project-11/issues"
   },
-  "homepage": "https://github.com/hexlet-boilerplates/webpack-package#readme",
+  "homepage": "https://github.com/BEAR-AE/frontend-project-11#readme",
   "jest": {
     "verbose": true,
     "testEnvironmentOptions": {
@@ -23,7 +23,7 @@
     },
     "testEnvironment": "jsdom"
   },
-  "main": "src/init.js",
+  "main": "src/index.js",
   "devDependencies": {
     "@babel/core": "^7.20.12",
     "@babel/eslint-parser": "^7.19.1",
