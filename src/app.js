@@ -4,7 +4,7 @@ import axios from 'axios';
 import { uniqueId } from 'lodash';
 import * as yup from 'yup';
 import ru from './locales/ru.js';
-import render from './render.js';
+import render from './view.js';
 import parseRSS from './parser.js';
 
 const updateLocalization = (i18n) => {
