@@ -10,6 +10,7 @@ import parseRSS from './utils/parser.js';
 const updateLocalization = (i18n) => {
   document.querySelectorAll('[data-i18n]').forEach((element) => {
     const key = element.getAttribute('data-i18n');
+    // eslint-disable-next-line no-param-reassign
     element.textContent = i18n.t(key);
   });
 };
