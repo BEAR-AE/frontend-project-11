@@ -1,4 +1,3 @@
-/* eslint-disable no-param-reassign */
 const handleErrors = (elements, error) => {
   const { input, notificationBox } = elements;
   input.style.border = '2px solid red';
